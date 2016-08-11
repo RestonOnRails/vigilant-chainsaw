@@ -1,6 +1,5 @@
-<h1>Editing Boot</h1>
-
-<%= render 'form', boot: @boot %>
-
-<%= link_to 'Show', @boot %> |
-<%= link_to 'Back', boots_path %>
+<%- model_class = Boot -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => [:'helpers.titles.edit', 'Edit %{model}'], :model => model_class.model_name.human.titleize %></h1>
+</div>
+<%= render :partial => 'form' %>
