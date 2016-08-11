@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+
+/*tr {
+    background-color: #EEE5E8
+}*/
+
+.navbar-default {
+    background-color: #EEE5E8;
+}
