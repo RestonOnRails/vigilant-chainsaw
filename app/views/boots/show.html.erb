@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @boot.color %>
+</p>
+
+<p>
+  <strong>Style:</strong>
+  <%= @boot.style %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @boot.gender %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @boot.size %>
+</p>
+
+<p>
+  <strong>Clay type:</strong>
+  <%= @boot.clay_type %>
+</p>
+
+<%= link_to 'Edit', edit_boot_path(@boot) %> |
+<%= link_to 'Back', boots_path %>

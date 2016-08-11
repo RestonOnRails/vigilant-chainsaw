@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  color: MyString
+  style: MyString
+  gender: MyString
+  size: MyString
+  clay_type: MyString
+
+two:
+  color: MyString
+  style: MyString
+  gender: MyString
+  size: MyString
+  clay_type: MyString

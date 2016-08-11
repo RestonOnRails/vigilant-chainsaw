@@ -1,0 +1,42 @@
+<%= form_for(boot) do |f| %>
+  <% if boot.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(boot.errors.count, "error") %> prohibited this boot from being saved:</h2>
+
+      <ul>
+      <% boot.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :color %>
+    <%= f.text_field :color %>
+  </div>
+
+  <div class="field">
+    <%= f.label :style %>
+    <%= f.text_field :style %>
+  </div>
+
+  <div class="field">
+    <%= f.label :gender %>
+    <%= f.text_field :gender %>
+  </div>
+
+  <div class="field">
+    <%= f.label :size %>
+    <%= f.text_field :size %>
+  </div>
+
+  <div class="field">
+    <%= f.label :clay_type %>
+    <%= f.text_field :clay_type %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
